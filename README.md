@@ -34,3 +34,4 @@ The CSS file includes media queries to make the web page responsive. Styles are 
 To use this code, simply clone the repository and open the 'index.html' file in a web browser. Ensure that all files are in the same directory for the code to work properly.
 
 
+--------------------------
