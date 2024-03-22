@@ -1,10 +1,10 @@
 // Wait until the webpage is fully loaded before running our code
 document.addEventListener('DOMContentLoaded', function () {
-    // Load the data from the pieChart.json file
+    // fetching the data from the pieChart.json file
     fetch('pieChart.json')
         .then(response => response.json()) // Convert the response to a JavaScript object
         .then(data => {
-            // Extract the years and number of installs from the data
+            // Extract the years and number of installs from the data using dot notation
             const years = data.map(item => item.year);
             const numInstalls = data.map(item => item.numInstalls);
 
