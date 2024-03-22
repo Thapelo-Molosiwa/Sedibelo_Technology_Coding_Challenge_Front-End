@@ -16,7 +16,7 @@ canvas {
 h1 {
     text-align: center;
     margin-top: 30px;
-    opacity: 0; /* Initially hide the h1 */
+  
 }
 
 .footer {
@@ -25,7 +25,7 @@ h1 {
     color: #666;
 }
 
-/* Slide-up animation for canvas */
+
 canvas {
     animation: slideUp 0.2s ease-out;
 }
@@ -39,40 +39,27 @@ canvas {
     }
 }
 
-/* Apply drop-in animation to h1 */
-#title {
-    animation: dropIn 0.5s ease-out forwards; /* Animation forwards keeps the end state */
-}
 
-/* Slide-up animation keyframes */
-@keyframes slideUp {
-    from {
-        transform: translateY(100%);
-    }
-    to {
-        transform: translateY(0);
-    }
-}
 
 /* Responsive styles for mobiles and tablets */
-@media only screen and (max-width: 768px) { /* Adjust font size for smaller screens */
+@media only screen and (max-width: 768px) {
     h1 {
-        font-size: 24px; /* Decrease font size for tablets */
+        font-size: 24px; 
     }
 
     .footer {
-        margin-top: 10px; /* Adjust margin top for smaller screens */
-        font-size: 14px; /* Decrease font size for tablets */
+        margin-top: 10px; 
+        font-size: 14px; 
     }
 }
 
-@media only screen and (max-width: 480px) { /* Further adjust font size for even smaller screens */
+@media only screen and (max-width: 480px) { 
     h1 {
-        font-size: 20px; /* Decrease font size for mobile devices */
+        font-size: 20px; 
     }
 
     .footer {
-        margin-top: 5px; /* Further adjust margin top for smaller screens */
-        font-size: 12px; /* Decrease font size for mobile devices */
+        margin-top: 5px; 
+        font-size: 12px; 
     }
 }
