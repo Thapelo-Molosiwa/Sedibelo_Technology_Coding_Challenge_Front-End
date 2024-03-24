@@ -3,14 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bar Graph</title>
-    <link rel="stylesheet" href="style.css">
-    <script type="module" src="script.js"></script>
+    <title>Bar Chart coding test</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
-    <div class="container">
-        <h1>Monthly Installs</h1>
-        <div id="bar-chart"></div>
+    <div class="chart-container">
+        <div class="canvas-container">
+            <canvas id="bar-chart"></canvas>
+        </div>
     </div>
+
+    <script src="script.js" type="module"></script>
 </body>
 </html>
