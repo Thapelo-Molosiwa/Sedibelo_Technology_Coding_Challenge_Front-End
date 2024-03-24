@@ -23,14 +23,14 @@ document.addEventListener('DOMContentLoaded', function () {
                         data: numInstalls, // Number of installs for each year
                         backgroundColor: [ // Colors for each segment of the pie chart
                             'rgba(255, 99, 132, 0.5)',
-                            'rgba(54, 162, 235, 0.5)',
+                            'rgba(1, 16, 92, 0.5)',
                             'rgba(255, 206, 86, 0.5)',
                             'rgba(75, 192, 192, 0.5)',
                             'rgba(153, 102, 255, 0.5)'
                         ],
                         borderColor: [ // Border colors for each segment
                             'rgba(255, 99, 132, 1)',
-                            'rgba(54, 162, 235, 1)',
+                            'rgba(1, 16, 92, 1)',
                             'rgba(255, 206, 86, 1)',
                             'rgba(75, 192, 192, 1)',
                             'rgba(153, 102, 255, 1)'
