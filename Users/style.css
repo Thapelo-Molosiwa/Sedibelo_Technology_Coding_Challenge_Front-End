@@ -4,19 +4,37 @@
     padding: 20px;
   }
   
+  body {
+    background-color: whitesmoke;
+  }
+  
   table {
     width: 100%;
     border-collapse: collapse;
   }
   
+  .searchButton, .pagination button {
+    padding: 10px 20px;
+    background-color: #376dbd;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .searchButton:focus, .pagination button:focus {
+    outline: none;
+  }
+  
   table, th, td {
-    border: 1px solid #ddd;
+    border: 1px solid #918b8b;
     padding: 8px;
     text-align: left;
   }
   
   th {
-    background-color: #f2f2f2;
+    background-color: #c2c0c0;
   }
   
   .pagination {
@@ -35,7 +53,9 @@
   }
   
   /* Responsive Styles */
-  @media only screen and (max-width: 600px) {
+  
+ 
+  @media only screen and (max-width: 768px) {
     .container {
       padding: 10px;
     }
@@ -47,7 +67,8 @@
     }
   }
   
-  @media only screen and (max-width: 400px) {
+
+  @media only screen and (max-width: 480px) {
     input[type="text"], select {
       padding: 6px;
     }
