@@ -1,37 +1,30 @@
-# Sedibelo_Technology_Coding_Challenge_Front-End
-This repository contains a JavaScript front-end coding test 
+# Sedibelo Technology Front-End Coding Challenge
 
+This repository contains a front-end coding test that demonstrates the implementation of a pie chart, bar graph, and user search functionality using HTML, CSS, and JavaScript.
 
-# Explanation of Pie Chart Test
+## Contents
 
+1. **Pie Chart:** This coding test includes the implementation of a pie chart using JavaScript to visualize data in a circular statistical graphic. The pie chart represents data in slices, where each slice represents a category and its size represents the proportionate value.
 
-## Overview
+2. **Bar Graph:** Additionally, this coding test includes the implementation of a bar graph using JavaScript to visualize data in a rectangular statistical graphic. The bar graph represents data using rectangular bars with lengths proportional to the values they represent.
 
-The code in this project consists of HTML, CSS, and JavaScript files that work together to create a pie chart displaying the number of installs by year. Additionally, it includes functionality to cancel out other years and view the number of installs for a specific year.
+3. **User Search:** The coding test also features a user search functionality implemented using JavaScript. Users can input keywords or phrases into a search bar, and the application dynamically filters and displays relevant user information based on the search query.
 
-## HTML (index.html)
+## Technologies Used
 
-The HTML file contains the structure of the web page. It includes elements such as the canvas for the pie chart, the title, and the footer.
+- **HTML:** Used for structuring the web page content.
+- **CSS:** Utilized for styling the HTML elements and enhancing visual presentation.
+- **JavaScript:** Employed for implementing interactivity, data manipulation, and dynamic content generation.
 
-## CSS (styles.css)
+## Usage
 
-The CSS file contains styles to customize the appearance of the web page. It includes global styles for body, canvas, headings, and footer, as well as animations for the slide-up effect and drop-in animation.
+To run this coding test locally, simply clone the repository and open the `index.html` file in a web browser. Ensure that you have a modern web browser that supports HTML, CSS, and JavaScript.
 
-## JavaScript (script.js)
+## Acknowledgments
 
-The JavaScript file contains the logic to fetch data from the 'pieChart.json' file and render a pie chart using the Chart.js library. It also includes functions to handle the animation of the pie chart and the slide-up effect for the canvas. Additionally, it provides functionality to cancel out other years and view the number of installs for a specific year.
+This coding test was completed as part of the requirements for the Sedibelo Technology front-end developer position. Special thanks to Sedibelo Technology for providing this opportunity to demonstrate skills and expertise in front-end web development.
 
-## Interactive Features
+## Author
 
-- **Canceling out other years:** Users can click on a particular segment of the pie chart to cancel out other years and view the number of installs for that specific year only. This provides users with the ability to focus on a particular year's data and analyze it in isolation.
+Thapelo Molosiwa - e-mail : itmolosiwa17@gmail.com
 
-## Responsive Design
-
-The CSS file includes media queries to make the web page responsive. Styles are adjusted for smaller screens such as tablets and mobile devices to ensure optimal display and readability.
-
-## How to Use
-
-To use this code, simply clone the repository and open the 'index.html' file in a web browser. Ensure that all files are in the same directory for the code to work properly.
-
-
---------------------------
