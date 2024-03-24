@@ -1,3 +1,5 @@
+import Chart from 'https://cdn.jsdelivr.net/npm/chart.js';
+
 document.addEventListener("DOMContentLoaded", function() {
     fetch('barGraph.json')
     .then(response => response.json())
@@ -5,7 +7,9 @@ document.addEventListener("DOMContentLoaded", function() {
         const months = data.map(entry => entry.month);
         const installs = data.map(entry => entry.numInstalls);
 
-        const chart = new Chart('bar-chart', {
+        const ctx = document.getElementById('bar-chart').getContext('2d');
+
+        new Chart(ctx, {
             type: 'bar',
             data: {
                 labels: months,
@@ -19,9 +23,11 @@ document.addEventListener("DOMContentLoaded", function() {
             },
             options: {
                 scales: {
-                    y: {
-                        beginAtZero: true
-                    }
+                    yAxes: [{
+                        ticks: {
+                            beginAtZero: true
+                        }
+                    }]
                 }
             }
         });
